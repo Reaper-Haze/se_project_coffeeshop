@@ -1,0 +1,216 @@
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  font-family: inter, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #ffffff;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  position: relative;
+  padding-top: 30px;
+  padding-left: 30px;
+  height: 39px;
+  width: 105px;
+  position: relative;
+}
+
+.nav__links {
+  list-style-type: none;
+  gap: 20px;
+  display: flex;
+  padding-top: 30px;
+  padding-right: 80px;
+  margin: 0;
+}
+
+.nav__link {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+}
+
+.header__title {
+  margin: 0;
+  padding-bottom: 28px;
+  padding-left: 80px;
+  padding-top: 213px;
+  max-width: 729px;
+  letter-spacing: -0.6px;
+  font-size: 60px;
+  font-style: normal;
+  font-family: "Inter";
+  font-weight: 500;
+  line-height: 72px;
+  color: black;
+}
+
+.header__title_span-accent {
+  color: #2f80ed;
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.header__description {
+  margin-left: 80px;
+  margin: 0;
+  padding-left: 80px;
+  display: flex;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__image {
+  position: absolute;
+  right: 5px;
+  top: 124px;
+  height: 646px;
+  width: 568px;
+}
+
+.header__footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.header__paragraph {
+  margin: 0;
+}
+
+.header__paragraph_item_1 {
+  padding-left: 80px;
+  padding-bottom: 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+}
+
+.header__paragraph_item_2 {
+  padding-right: 80px;
+  padding-bottom: 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+}
+
+.content {
+  background-color: #0a2750;
+}
+
+.recipies {
+  padding: 100px 80px 215px;
+}
+
+.recipies__title {
+  color: #ffffff;
+  max-width: 580px;
+  margin: 0;
+  display: flex;
+  padding-bottom: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.recipies__subtitle {
+  color: #ffffff;
+  margin: 0;
+  max-width: 438px;
+  padding-bottom: 80px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.recipies__videos {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  gap: 40px;
+}
+
+.recipies__iframe_items {
+  margin: 0;
+  border: 0;
+  padding-bottom: 24px;
+}
+
+.recipies__videos-caption_item_1 {
+  color: #ffffff;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.recipies__videos-caption_item_2 {
+  color: #ffffff;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  font-family: "inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.reservations {
+}
+
+.menu {
+}
+
+.about {
+}
+
+.footer {
+}
