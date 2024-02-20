@@ -141,11 +141,13 @@ body {
 }
 
 .content {
-  background-color: #0a2750;
 }
 
 .recipes {
   padding: 100px 80px 215px;
+  background-image: url(../images/background_recipes.svg);
+  background-size: cover;
+  background-color: #0a2750;
 }
 
 .recipes__title {
