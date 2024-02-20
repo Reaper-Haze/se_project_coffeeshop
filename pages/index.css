@@ -23,6 +23,15 @@ body {
   background-image: url(../images/background_header.svg);
 }
 
+.header__image {
+  position: absolute;
+  right: 5px;
+  padding-top: 124px;
+  height: 568px;
+  width: 646px;
+  margin: 0;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -76,13 +85,14 @@ body {
   color: black;
 }
 
-.header__title_span-accent {
+.header__span-accent {
   color: #2f80ed;
   font-family: "Noto Serif";
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
   line-height: 72px;
+  display: block;
 }
 
 .header__description {
@@ -95,14 +105,7 @@ body {
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-}
-
-.header__image {
-  position: absolute;
-  right: 5px;
-  top: 124px;
-  height: 646px;
-  width: 568px;
+  max-width: 683px;
 }
 
 .header__footer {
