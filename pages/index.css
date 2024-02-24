@@ -215,6 +215,72 @@ body {
 }
 
 .reservations {
+  padding: 100px 0 120px;
+  background-image: url(../images/background_reservation.svg);
+}
+
+.reservation__title {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-bottom: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.reservation__form {
+  margin: 0 auto;
+}
+
+.form {
+  max-width: 385px;
+}
+
+.form__fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.form__label {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 32px;
+  display: block;
+}
+
+.form__label_type_checkbox {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  gap: 12px;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: 8px;
+}
+
+.form__button {
+  width: 100%;
+  padding: 0;
+  border: none;
+  margin-bottom: 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .menu {
