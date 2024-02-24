@@ -216,7 +216,11 @@ body {
 
 .reservations {
   padding: 100px 0 120px;
+}
+
+.reservations__background {
   background-image: url(../images/background_reservation.svg);
+  background-color: #d9e7ff;
 }
 
 .reservation__title {
@@ -229,6 +233,7 @@ body {
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  color: #000000;
 }
 
 .reservation__form {
@@ -269,6 +274,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   margin-top: 8px;
+  block-size: 60px;
 }
 
 .form__button {
@@ -281,6 +287,8 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  block-size: 60px;
+  color: #ffffff;
 }
 
 .menu {
