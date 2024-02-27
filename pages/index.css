@@ -214,11 +214,8 @@ body {
   line-height: 30px;
 }
 
-.reservations {
+.reservation {
   padding: 100px 0 120px;
-}
-
-.reservations__background {
   background-image: url(../images/background_reservation.svg);
   background-color: #d9e7ff;
 }
