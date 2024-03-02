@@ -10,6 +10,7 @@
   max-width: 251px;
   padding-left: 80px;
   padding-top: 100px;
+  font-family: "Inter";
 }
 
 .about__content {
@@ -29,4 +30,9 @@
 }
 
 .about__circle {
+  height: 426px;
+  width: 426px;
+  margin: 0;
+  left: -129px;
+  top: -152px;
 }
