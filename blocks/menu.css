@@ -7,7 +7,7 @@
 }
 
 .menu__title {
-  margin: 0;
+  margin: 0 auto;
   max-width: 780px;
   padding-bottom: 24px;
   text-align: center;
@@ -22,7 +22,7 @@
   text-align: center;
   max-width: 780px;
   justify-content: center;
-  margin: 0;
+  margin: 0 auto;
   padding-bottom: 100px;
   font-family: "Noto Serif";
   font-style: normal;
@@ -73,4 +73,5 @@
 }
 
 .card__list-divider {
+  border-bottom: black;
 }
