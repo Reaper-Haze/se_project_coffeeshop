@@ -3,14 +3,16 @@
   margin: 0;
   padding: 0;
   position: relative;
+  padding-top: 119px;
+  padding-right: 80px;
+  padding-bottom: 173px;
+  padding-left: 80px;
 }
 
 .about__title {
   color: #ffffff;
   margin: 0;
   max-width: 251px;
-  padding-left: 80px;
-  padding-top: 100px;
   font-family: "Inter";
 }
 
@@ -18,9 +20,6 @@
   display: flex;
   max-width: 660px;
   margin: 0;
-  padding-top: 119px;
-  padding-right: 80px;
-  padding-bottom: 173px;
   flex-wrap: wrap;
 }
 
@@ -28,6 +27,7 @@
   color: #ffffff;
   margin: 0;
   padding-bottom: 20px;
+  z-index: 2;
 }
 
 .about__circle {
