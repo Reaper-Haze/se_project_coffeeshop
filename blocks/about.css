@@ -14,11 +14,16 @@
   margin: 0;
   max-width: 251px;
   font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-style: 44px;
+  line-height: 52px;
+  padding-left: 80px;
+  max-width: 251px;
 }
 
 .about__content {
   display: flex;
-  max-width: 660px;
   margin: 0;
   flex-wrap: wrap;
 }
@@ -27,7 +32,14 @@
   color: #ffffff;
   margin: 0;
   padding-bottom: 20px;
-  z-index: 2;
+  z-index: 1;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 80px;
+  max-width: 660px;
 }
 
 .about__circle {
