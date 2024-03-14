@@ -1,6 +1,5 @@
 .footer {
-  background: linear-gradient(180deg, #0a2850 0% #071931 100%);
-  margin: 60px 80px 168px 80px;
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
 }
 
 .footer__content {
@@ -22,6 +21,7 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
+  color: #ffffff;
 }
 
 .footer__list {
@@ -43,6 +43,7 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  color: #ffffff;
 }
 
 .footer__list-item-2 {
@@ -52,11 +53,13 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  color: #ffffff;
 }
 
 .footer__social-icon {
   margin: 0;
   gap: 10px;
+  color: #ffffff;
 }
 
 .footer__social-link {
@@ -73,4 +76,5 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  color: #ffffff;
 }
