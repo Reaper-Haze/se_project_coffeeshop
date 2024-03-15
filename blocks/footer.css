@@ -1,5 +1,6 @@
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+  padding: 60px 80px 60px 80px;
 }
 
 .footer__content {
@@ -22,6 +23,7 @@
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+  display: flex;
 }
 
 .footer__list {
@@ -60,6 +62,7 @@
   margin: 0;
   gap: 10px;
   color: #ffffff;
+  position: absolute;
 }
 
 .footer__social-link {
@@ -77,4 +80,5 @@
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+  display: flex;
 }
