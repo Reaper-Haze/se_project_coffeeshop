@@ -71,4 +71,8 @@
   block-size: 60px;
   color: #ffffff;
   background-color: #2f80ed;
+  transition: opacity 1s;
+}
+
+.form__botton:hover {
 }

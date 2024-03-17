@@ -46,6 +46,8 @@
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+  display: flex;
+  gap: 10px;
 }
 
 .footer__list-item-2 {
@@ -56,19 +58,22 @@
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+  display: flex;
+  gap: 10px;
 }
 
 .footer__social-icon {
   margin: 0;
   gap: 10px;
   color: #ffffff;
-  position: absolute;
 }
 
 .footer__social-link {
+  transition: color 3s;
 }
 
 .footer__social-link:hover {
+  color: #c1c1c1;
 }
 
 .footer__copyright {
